@@ -1,0 +1,17 @@
+:root {
+  /* fonts */
+  --font-size-max: 40px;
+  --font-size-medium: 35px;
+  --font-size-min: 30px;
+  --font-size-max2: 28px;
+  --font-size-medium2: 24px;
+  --font-size-min2: 20px;
+  /* Основной цвет */
+  --color-main-1: #edf2fb;
+  --color-main-2: #e2eafc;
+  --color-main-3: #d7e3fc;
+  --color-main-4: #ccdbfd;
+  --color-main-5: #c1d3fe;
+  --color-main-6: #b6ccfe;
+  --color-main-7: #abc4ff;
+}
