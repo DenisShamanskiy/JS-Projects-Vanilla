@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-let htmlPageNames = ["hexRandom"];
+let htmlPageNames = ["hexRandom", "counter"];
 let multipleHtmlPlugins = htmlPageNames.map((name) => {
   return new HtmlWebpackPlugin({
     template: `./src/${name}.html`,
@@ -13,7 +13,11 @@ let multipleHtmlPlugins = htmlPageNames.map((name) => {
 });
 
 module.exports = {
-  entry: { main: "./src/js/index.js", hexRandom: "./src/js/hexrandom.js" },
+  entry: {
+    main: "./src/js/index.js",
+    hexRandom: "./src/js/hexrandom.js",
+    counter: "./src/js/counter.js",
+  },
   output: {
     path: path.resolve(__dirname, "dist"),
     publicPath: "",
