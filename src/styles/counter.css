@@ -53,8 +53,8 @@ main {
   display: flex;
 }
 
-.btn {
-  margin: 20px 0;
+.btn__reset {
+  margin: 20px;
   padding: 0.75rem 1.25rem;
   background: rgba(65, 65, 65, 0);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
@@ -65,21 +65,38 @@ main {
   cursor: pointer;
 }
 
-.btn:nth-child(even) {
-  margin: 20px;
+.btn__decrease {
+  background: url(../images/minus-circle.svg);
 }
 
-.btn:hover {
+.btn__increase {
+  background: url(../images/plus-circle.svg);
+}
+
+.btn__decrease,
+.btn__increase {
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+  border: none;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.btn__reset:hover {
   background: rgba(65, 65, 65, 0.9);
   color: #fff;
+}
+
+.btn__decrease:hover,
+.btn__increase:hover {
+  transform: scale(1.2);
 }
 
 @media (max-width: 425px) {
   .header__title {
     font-size: var(--font-size-min);
-  }
-
-  .button-container {
-    flex-direction: column;
   }
 }

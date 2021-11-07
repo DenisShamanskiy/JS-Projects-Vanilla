@@ -8,9 +8,9 @@ const buttons = document.querySelectorAll(".btn");
 buttons.forEach(function (button) {
   button.addEventListener("click", function (e) {
     const styles = e.currentTarget.classList;
-    if (styles.contains("decrease")) {
+    if (styles.contains("btn__decrease")) {
       count--;
-    } else if (styles.contains("increase")) {
+    } else if (styles.contains("btn__increase")) {
       count++;
     } else {
       count = 0;

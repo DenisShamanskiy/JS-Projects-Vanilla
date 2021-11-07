@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team</title>
+
+  </head>
+  <body class="body">
+
+    <header class="header__project">
+      <h1 class="header__title">Our Team</h1>
+      <a href="./index.html"><img class="header__project_img" src="<%=require('./images/home.svg')%>" title="На главную"></a>
+    </header>
+
+    <main class="main">
+      <section class="container">
+        <article class="person">
+          <div class="img-container">
+            <img src='' id="person-img" alt="" />
+          </div>
+          <h4 id="person-name"></h4>
+          <p id="person-job"></p>
+          <p id="person-info"></p>
+          <!-- prev next buttons-->
+          <div class="button-container">
+            <button class="prev-btn"></button>
+            <button class="next-btn"></button>
+          </div>
+          <!-- random button -->
+          <button class="random-btn">Удиви меня</button>
+        </article>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="./js/ourTeam.js"></script>
+  </body>
+</html>
