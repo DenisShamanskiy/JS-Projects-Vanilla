@@ -367,6 +367,13 @@ template {
   --color-main-5: #c1d3fe;
   --color-main-6: #b6ccfe;
   --color-main-7: #abc4ff;
+  /* Ширина  */
+  --fixed-width: 620px;
+  /* Тень */
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  /* Анимация */
+  --transition: all 0.3s linear;
 }
 
 html {
