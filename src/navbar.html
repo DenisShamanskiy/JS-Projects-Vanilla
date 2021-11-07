@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+  
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="navigation-center">
+        <div class="navigation-header">
+          <a href="index.html"><img src="<%=require('./images/logoipsum.svg')%>" class="navigation-header__logo" alt="logo" /></a>
+          <button class="navigation-toggle"></button>
+        </div>
+
+        <ul class="links">
+          <li>
+            <a href="navbar.html" class="links__items">На главную</a>
+          </li>
+          <li>
+            <a href="navbar.html" class="links__items">О нас</a>
+          </li>
+          <li>
+            <a href="navbar.html" class="links__items">Проекты</a>
+          </li>
+          <li>
+            <a href="navbar.html" class="links__items">Контакты</a>
+          </li>
+        </ul>
+
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.facebook.com/"><img class="social-icons__items" src="<%=require('./images/facebook-circle.svg')%>" title="Facebook" alt="logo"></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com"><img class="social-icons__items" src="<%=require('./images/twitter-circle.svg')%>" title="Twitter" alt="Twitter"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"><img class="social-icons__items" src="<%=require('./images/instagram-circle.svg')%>" title="Instagram" alt="Instagram"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/"><img class="social-icons__items" src="<%=require('./images/youtube-circle.svg')%>" title="Youtube" alt="Youtube"></a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>
