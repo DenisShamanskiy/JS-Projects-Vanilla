@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+   
+  </head>
+  <body class="body">
+
+    <header class="header__project">
+      <a href="index.html"><img src="<%=require('./images/logoipsum.svg')%>" class="header__project__logo" alt="logo" /></a>
+    </header>
+    <main class="main">
+
+    
+      <div class="banner">
+        <button class="btn">
+          открыть
+        </button>
+      </div>
+    </main>
+
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <button class="close-btn"></button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
