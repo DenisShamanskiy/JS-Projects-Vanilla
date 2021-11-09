@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.querySelector(".btn"),t=document.querySelector(".modal-overlay"),c=document.querySelector(".close-btn");e.addEventListener("click",(function(){t.classList.add("open-modal")})),c.addEventListener("click",(function(){t.classList.remove("open-modal")}))})();
