@@ -10,6 +10,7 @@ let htmlPageNames = [
   "navbar",
   "sidebar",
   "modal",
+  "questions",
 ];
 let multipleHtmlPlugins = htmlPageNames.map((name) => {
   return new HtmlWebpackPlugin({
@@ -28,6 +29,7 @@ module.exports = {
     navbar: "./src/js/navbar.js",
     sidebar: "./src/js/sidebar.js",
     modal: "./src/js/modal.js",
+    questions: "./src/js/questions.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),

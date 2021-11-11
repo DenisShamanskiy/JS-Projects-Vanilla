@@ -32,10 +32,11 @@ body {
 
 .footer {
   width: clamp(320px, 90%, 1240px);
+  margin: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .projects {
