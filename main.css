@@ -376,6 +376,8 @@ template {
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   /* Анимация */
   --transition: all 0.3s linear;
+
+  --border-radius15: 50px:
 }
 
 html {
@@ -407,10 +409,11 @@ body {
 
 .footer {
   width: clamp(320px, 90%, 1240px);
+  margin: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .projects {

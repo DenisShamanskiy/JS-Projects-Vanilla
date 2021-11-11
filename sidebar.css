@@ -376,6 +376,8 @@ template {
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   /* Анимация */
   --transition: all 0.3s linear;
+
+  --border-radius15: 50px:
 }
 
 *,

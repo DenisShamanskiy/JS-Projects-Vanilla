@@ -1,0 +1,1 @@
+(()=>{"use strict";var t=document.querySelectorAll(".question");t.forEach((function(e){var s=e.querySelector(".question-btn");s.addEventListener("click",(function(){s.classList.toggle("question-btn_minus"),t.forEach((function(t){t!==e&&t.classList.remove("show-text")})),e.classList.toggle("show-text")}))}))})();

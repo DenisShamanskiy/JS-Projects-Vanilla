@@ -376,6 +376,8 @@ template {
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   /* Анимация */
   --transition: all 0.3s linear;
+
+  --border-radius15: 50px:
 }
 
 html {
@@ -467,13 +469,16 @@ main {
   background: rgba(171, 196, 255, 0.5);
   display: grid;
   place-items: center;
-  visibility: hidden;
   z-index: -10;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .open-modal {
-  visibility: visible;
   z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s linear, visibility 1s linear;
 }
 .modal-container {
   min-width: 288px;
